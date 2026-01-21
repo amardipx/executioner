@@ -1,0 +1,50 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.env.*
+venv/
+.venv/
+
+# =====================
+# Conda
+# =====================
+conda-meta/
+*.conda
+
+# =====================
+# FastAPI / Uvic based
+# =====================
+*.log
+
+# =====================
+# Node / React
+# =====================
+node_modules/
+dist/
+build/
+.vite/
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# Docker
+# =====================
+*.pid
+
+# =====================
+# Tests / Coverage
+# =====================
+.coverage
+htmlcov/
